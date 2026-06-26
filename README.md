@@ -1,51 +1,57 @@
-# dashboard-comercial-power-bi
-Primeiro dashboard desenvolvido em Power BI durante o curso Data Analyst do CESAE Digital.
-
-
 # Dashboard Comercial em Power BI
+
+![Dashboard](Imagens/dashboard.png)
 
 ## Sobre o Projeto
 
-Este é o primeiro projeto que desenvolvi em Power BI desde que iniciei a minha formação em Data Analyst no CESAE Digital.
+Este é o primeiro projeto que desenvolvi em Power BI desde que iniciei a minha formação em Data Analytics no CESAE Digital.
 
-O objetivo deste projeto foi transformar um conjunto de dados de vendas num dashboard simples, intuitivo e orientado para a tomada de decisão, aplicando boas práticas de visualização de dados e organização da informação.
+O objetivo foi aplicar os primeiros conceitos de Business Intelligence, criando um dashboard comercial capaz de transformar dados de vendas em informação útil para apoiar a análise do desempenho de uma empresa.
 
-O dashboard foi desenvolvido numa única página para permitir uma leitura rápida dos principais indicadores comerciais.
+Ao longo do desenvolvimento procurei aplicar boas práticas de organização visual, seleção de indicadores e construção de gráficos que permitissem responder rapidamente às principais questões de negócio.
+
+Embora seja um projeto introdutório, representa o início do meu portefólio na área de Data Analytics.
 
 ---
 
-## Objetivo do Dashboard
+## Objetivo
 
-Este dashboard procura responder rapidamente às seguintes questões:
+O dashboard foi desenvolvido para fornecer uma visão geral do desempenho comercial, permitindo responder rapidamente às seguintes questões:
 
 - Qual foi a faturação total?
 - Qual foi o lucro obtido?
 - Qual foi a margem de lucro?
 - Como evoluíram a faturação e o lucro ao longo dos meses?
-- Quais os vendedores que mais contribuíram para a faturação?
-- Quais os produtos que geraram maior lucro?
+- Quais foram os vendedores com maior faturação?
+- Quais foram os produtos mais rentáveis?
 
 ---
 
-## Indicadores (KPIs)
+## Dashboard
+
+![Dashboard Comercial](Imagens/dashboard.png)
+
+---
+
+## KPIs
 
 ### Faturação
 
 Representa o valor total das vendas realizadas durante o período selecionado.
 
-Foi escolhida por ser o principal indicador do volume de negócio, permitindo perceber rapidamente a dimensão das vendas.
+Este indicador permite perceber rapidamente o volume de negócio da empresa.
 
 ### Lucro
 
-Representa o resultado obtido após deduzir os custos à faturação.
+Representa o valor obtido após deduzir os custos associados às vendas.
 
-Este indicador permite avaliar se o negócio está efetivamente a gerar retorno financeiro.
+Foi escolhido por permitir avaliar o retorno financeiro efetivo da atividade comercial.
 
 ### Margem
 
 Calculada através da relação entre o lucro e a faturação.
 
-Foi incluída porque complementa os dois indicadores anteriores, permitindo avaliar a rentabilidade do negócio e colocar os resultados financeiros em contexto.
+Este KPI complementa os anteriores, permitindo medir a eficiência do negócio e perceber qual a percentagem da faturação que se transforma em lucro.
 
 ---
 
@@ -53,15 +59,25 @@ Foi incluída porque complementa os dois indicadores anteriores, permitindo aval
 
 ### Faturação e Lucro por Mês
 
-Foi utilizado um gráfico combinado (colunas e linha) para acompanhar a evolução mensal da faturação e do lucro, facilitando a identificação de tendências ao longo do tempo.
+Foi utilizado um gráfico combinado de colunas e linha para comparar a evolução da faturação e do lucro ao longo do tempo, permitindo identificar tendências e possíveis variações sazonais.
 
 ### Faturação por Vendedor
 
-Foi utilizado um gráfico de barras horizontal para comparar rapidamente o desempenho dos vendedores e identificar quem mais contribuiu para a faturação.
+Gráfico de barras horizontal utilizado para comparar o desempenho comercial dos vendedores e identificar quem mais contribuiu para a faturação.
 
 ### Lucro por Produto
 
-Foi utilizado um gráfico de barras horizontal para identificar os produtos com maior impacto no lucro e analisar a rentabilidade do portefólio.
+Gráfico de barras horizontal utilizado para identificar os produtos que geram maior lucro e apoiar decisões relacionadas com o portefólio de produtos.
+
+---
+
+## Filtros
+
+O dashboard permite analisar os dados através dos seguintes filtros:
+
+- Mês
+- Categoria
+- Região Comercial
 
 ---
 
@@ -75,57 +91,70 @@ Foi utilizado um gráfico de barras horizontal para identificar os produtos com 
 
 ## Competências Desenvolvidas
 
-Ao longo deste projeto coloquei em prática competências como:
+Durante este projeto desenvolvi competências nas seguintes áreas:
 
-- Modelação de dados
 - Criação de medidas em DAX
 - Desenvolvimento de KPIs
 - Construção de dashboards
-- Seleção de visualizações adequadas
-- Organização do layout
-- Data Storytelling
 - Visualização de dados
+- Organização de layouts
+- Análise exploratória de dados
+- Data Storytelling
+- Aplicação de boas práticas de Business Intelligence
 
 ---
 
-## Dashboard
+## Estrutura do Projeto
 
-> Adicione uma captura de ecrã do dashboard nesta secção.
-
-```markdown
-![Dashboard](Imagens/dashboard.png)
+```
+dashboard-comercial-power-bi/
+│
+├── Dashboard.pbix
+├── Dados.xlsx
+├── README.md
+└── Imagens/
+    └── dashboard.png
 ```
 
 ---
 
-## Aprendizagens
+## Principais Aprendizagens
 
-Sendo o meu primeiro projeto em Power BI, este trabalho permitiu consolidar conceitos fundamentais como:
+Este projeto permitiu consolidar vários conceitos fundamentais de Power BI, entre os quais:
 
-- Criação de medidas em DAX.
-- Construção de indicadores de desempenho (KPIs).
-- Organização de dashboards de uma página.
-- Aplicação de princípios de hierarquia visual.
-- Escolha das visualizações mais adequadas para comunicar informação.
+- Importação e organização de dados.
+- Criação de medidas utilizando DAX.
+- Desenvolvimento de indicadores de desempenho (KPIs).
+- Construção de dashboards numa única página.
+- Escolha das visualizações mais adequadas para diferentes tipos de análise.
+- Organização da informação através de uma hierarquia visual simples e intuitiva.
 
-Este projeto marca o início do meu portefólio em Business Intelligence e representa o primeiro passo na minha aprendizagem em Power BI.
+Mais do que aprender a utilizar uma ferramenta, este projeto ajudou-me a compreender a importância de transformar dados em informação clara para apoiar a tomada de decisão.
 
 ---
 
 ## Melhorias Futuras
 
-Nos próximos projetos pretendo explorar funcionalidades mais avançadas, como:
+Pretendo continuar a evoluir este projeto e explorar funcionalidades mais avançadas do Power BI, incluindo:
 
 - Power Query
-- Modelação de dados mais complexa
-- DAX avançado
+- Modelação de dados em estrela (Star Schema)
+- DAX intermédio e avançado
 - Tooltips personalizados
 - Drill-through
 - Bookmarks
-- Dashboards com múltiplas páginas
+- Navegação entre páginas
+- Indicadores temporais (YTD e MTD)
+- Publicação e partilha de dashboards no Power BI Service
 
 ---
 
-## Autor
+## Sobre Mim
 
-**Diogo Gomes**
+Chamo-me **Diogo Gomes** e iniciei recentemente a minha formação em **Data Analytics** no CESAE Digital.
+
+Este repositório faz parte do meu percurso de aprendizagem e do desenvolvimento do meu portefólio na área da Análise de Dados e Business Intelligence.
+
+Estou a documentar os projetos que vou desenvolvendo à medida que adquiro novas competências.
+
+---
